@@ -5,4 +5,5 @@ Task for 1Global
 - Run this command to start docker compose: docker-compose up --build -d
 - Run this command to stop docker compose: docker compose down
 
-## to access swagger go to this URL after running the app: http://localhost:8080/swagger-ui/index.html
+## Swagger URL: 
+http://localhost:8080/swagger-ui/index.html

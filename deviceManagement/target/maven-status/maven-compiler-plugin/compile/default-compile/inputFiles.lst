@@ -1,0 +1,10 @@
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/repos/DeviceRepository.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/config/JacksonConfig.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/rest/HomeResource.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/util/NotFoundException.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/service/DeviceService.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/rest/DeviceResource.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/config/DomainConfig.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/model/DeviceDTO.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/DeviceManagementApplication.java
+/Users/youssefm/Downloads/deviceManagement/src/main/java/org/example/devicemanagement/domain/Device.java

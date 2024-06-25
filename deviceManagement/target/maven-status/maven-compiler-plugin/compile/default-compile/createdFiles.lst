@@ -1,0 +1,10 @@
+org/example/devicemanagement/service/DeviceService.class
+org/example/devicemanagement/DeviceManagementApplication.class
+org/example/devicemanagement/rest/HomeResource.class
+org/example/devicemanagement/config/DomainConfig.class
+org/example/devicemanagement/domain/Device.class
+org/example/devicemanagement/rest/DeviceResource.class
+org/example/devicemanagement/util/NotFoundException.class
+org/example/devicemanagement/repos/DeviceRepository.class
+org/example/devicemanagement/config/JacksonConfig.class
+org/example/devicemanagement/model/DeviceDTO.class

@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
@@ -21,6 +22,7 @@ import java.util.UUID;
 @ToString
 @EqualsAndHashCode
 @RequiredArgsConstructor
+@AllArgsConstructor
 public class Device {
 
 	@Id
@@ -49,6 +51,13 @@ public class Device {
 	@LastModifiedDate
 	@Column(nullable = false)
 	private OffsetDateTime lastUpdated;
+
+	public Device(final String name, final String brand, final Integer quantity, final OffsetDateTime dateCreated) {
+		this.name = name;
+		this.brand = brand;
+		this.quantity = quantity;
+		this.dateCreated = dateCreated;
+	}
 
 	public UUID getId() {
 		return this.id;

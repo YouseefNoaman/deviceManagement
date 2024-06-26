@@ -12,7 +12,7 @@ services:
     ports:
       - '9411:9411'
   springboot-app:
-    image: 'device-management:latest' # Replace with your actual Spring Boot app image name
+    image: 'device-management:latest' 
     environment:
       - 'SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/mydatabase'
       - 'SPRING_DATASOURCE_USERNAME=myuser'

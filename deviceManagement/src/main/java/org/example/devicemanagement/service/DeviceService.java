@@ -38,10 +38,11 @@ public class DeviceService {
 		return this.deviceRepository.save(device).getId();
 	}
 
-	public void update(final UUID id, final DeviceDTO deviceDTO) {
+	public UUID update(final UUID id, final DeviceDTO deviceDTO) {
 		final Device device = this.deviceRepository.findById(id).orElseThrow(NotFoundException::new);
 		this.updateMapToEntity(deviceDTO, device);
 		this.deviceRepository.save(device);
+		return device.getId();
 	}
 
 	public void delete(final UUID id) {
